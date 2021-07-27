@@ -23,4 +23,12 @@ public class Job {
 
     @OneToMany
     private List<Certificate> certificates;
+
+    public Job(String name) {
+        this.name = name;
+    }
+
+    public Job () {
+
+    }
 }
